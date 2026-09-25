@@ -3,181 +3,222 @@
     "Brand": {
       "Default": {
         "$type": "color",
-        "$value": "{Brand.800}"
+        "$value": "{Brand.800}",
+        "$description": "Superfície sólida de ação primária institucional (Brand 800). Parear com Text/Brand/On Brand (White/Brand 100) para conformidade WCAG 2.2 AA (11.5:1 AAA)."
       },
       "Hover": {
         "$type": "color",
-        "$value": "{Brand.900}"
+        "$value": "{Brand.900}",
+        "$description": "Estado de interação hover para botões e controles de ação primária de marca (Brand 900)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Brand.200}"
+        "$value": "{Brand.200}",
+        "$description": "Fundo secundário de marca para áreas de destaque suave e tags ativas (Brand 200). Parear com Text/Brand/Default."
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Brand.300}"
+        "$value": "{Brand.300}",
+        "$description": "Hover sobre fundos secundários de marca (Brand 300)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Brand.100}"
+        "$value": "{Brand.100}",
+        "$description": "Fundo sutil de marca para Badges de produtos ativos e linhas selecionadas (Brand 100). Parear com Text/Brand/Default (contraste 11.5:1 AAA)."
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{Brand.200}"
+        "$value": "{Brand.200}",
+        "$description": "Hover para badges e containers sutis de marca (Brand 200)."
       }
     },
     "Danger": {
       "Default": {
         "$type": "color",
-        "$value": "{Red.600}"
+        "$value": "{Red.600}",
+        "$description": "Fundo sólido de erro crítico, duplicidade e rejeição contábil calibrado em Red 600. Usado em botões de exclusão/estorno e Badges de alto destaque. Parear OBRIGATORIAMENTE com Text/Danger/On Danger (White) para atingir 6.33:1 (WCAG 2.2 AA). Nota: Red 500 foi descontinuado aqui por atingir apenas 3.74:1."
       },
       "Hover": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Hover para ações destrutivas e botões de perigo sólidos (Red 700). Contraste de 9.38:1 com White (WCAG AAA)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Red.200}"
+        "$value": "{Red.200}",
+        "$description": "Fundo de média ênfase para banners de erro e alertas de transação bloqueada (Red 200). Parear com Text/Danger/Default (6.88:1 AA)."
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Red.300}"
+        "$value": "{Red.300}",
+        "$description": "Hover sobre fundos secundários de perigo (Red 300)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Red.100}"
+        "$value": "{Red.100}",
+        "$description": "Fundo sutil/suave para Badges e Pills de \"Divergência Crítica / Erro de Extrato\" em tabelas financeiras (Red 100). REGRA CRÍTICA DE ACESSIBILIDADE PARA BADGES: Parear OBRIGATORIAMENTE com Text/Danger/Default (Red 700) para contraste de 8.05:1 (WCAG AAA). NUNCA usar Text/Danger/On Danger (1:1 - invisível)."
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{Red.200}"
+        "$value": "{Red.200}",
+        "$description": "Hover para Badges e linhas de tabela com divergência de saldo (Red 200). Parear com Text/Danger/Default (6.88:1 AA)."
       }
     },
     "Default": {
       "Default": {
         "$type": "color",
-        "$value": "{White.1000}"
+        "$value": "{White.1000}",
+        "$description": "Superfície primária da aplicação (viewport/canvas claro ou base de cartões neutros). Fundo padrão para leitura de alta densidade."
       },
       "Default Hover": {
         "$type": "color",
-        "$value": "{Gray.100}"
+        "$value": "{Gray.100}",
+        "$description": "Estado de foco/hover para superfícies neutras padrão clicáveis ou linhas de tabela interativas."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Gray.100}"
+        "$value": "{Gray.100}",
+        "$description": "Superfície secundária para agrupamentos visuais, cabeçalhos de tabela, cards de apoio e campos de busca."
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Gray.200}"
+        "$value": "{Gray.200}",
+        "$description": "Estado hover para cards e áreas de conteúdo secundário interativo."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Gray.300}"
+        "$value": "{Gray.300}",
+        "$description": "Superfície terciária para drawers laterais, painéis de inspeção e divisões internas de layout."
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Hover sobre superfícies terciárias interativas."
       }
     },
     "Disabled": {
       "Default": {
         "$type": "color",
-        "$value": "{Gray.300}"
+        "$value": "{Gray.300}",
+        "$description": "Fundo passivo de elementos desativados (Gray 300). Isento de critérios estritos de contraste segundo WCAG 2.2 (Critério 1.4.3)."
       }
     },
     "Neutral": {
       "Default": {
         "$type": "color",
-        "$value": "{Slate.700}"
+        "$value": "{Slate.700}",
+        "$description": "Fundo neutro sólido de alta ênfase (Slate 700). Usado em badges neutros escuros ou botões neutros. Parear estritamente com Text/Neutral/On Neutral (contraste 9.4:1 AAA)."
       },
       "Hover": {
         "$type": "color",
-        "$value": "{Slate.800}"
+        "$value": "{Slate.800}",
+        "$description": "Estado de hover para superfícies neutras de alta ênfase (Slate 800)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Slate.300}"
+        "$value": "{Slate.300}",
+        "$description": "Fundo neutro de média ênfase (Slate 300) para chips neutros e tags de rascunho. Parear com Text/Neutral/Default (contraste 8.4:1 AAA)."
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Slate.400}"
+        "$value": "{Slate.400}",
+        "$description": "Hover sobre chips neutros de média ênfase (Slate 400)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Slate.200}"
+        "$value": "{Slate.200}",
+        "$description": "Fundo neutro sutil/suave (Slate 200) para Badges neutros de sistema e linhas de transação neutras. Parear com Text/Neutral/Default (contraste 11.2:1 AAA)."
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{Slate.300}"
+        "$value": "{Slate.300}",
+        "$description": "Hover para badges e linhas de tabela neutras (Slate 300)."
       }
     },
     "Positive": {
       "Default": {
         "$type": "color",
-        "$value": "{Green.700}"
+        "$value": "{Green.700}",
+        "$description": "Fundo sólido de sucesso e conciliação efetuada (Green 700). Usado em Badges sólidos e botões de aprovação. Parear OBRIGATORIAMENTE com Text/Positive/On Positive (White) para atingir 5.04:1 (WCAG 2.2 AA)."
       },
       "Hover": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Hover para botões de sucesso/aprovação (Green 800). Contraste de 9.10:1 com White (WCAG 2.2 AAA)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Green.200}"
+        "$value": "{Green.200}",
+        "$description": "Fundo de média ênfase para tags e cartões informativos de sucesso (Green 200). Parear com Text/Positive/Default."
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Green.300}"
+        "$value": "{Green.300}",
+        "$description": "Hover sobre fundos de sucesso secundários (Green 300)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Green.100}"
+        "$value": "{Green.100}",
+        "$description": "Fundo sutil/translúcido para Badges e Pills de status \"Conciliado\" em tabelas financeiras (Green 100). REGRA DE PAREAMENTO: Usar estritamente com Text/Positive/Default para contraste 8.69:1 (WCAG AAA). NUNCA usar Text/Positive/On Positive aqui."
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{Green.200}"
+        "$value": "{Green.200}",
+        "$description": "Hover para Badges e linhas de tabela conciliadas (Green 200)."
       }
     },
     "Utilities": {
       "Blanket": {
         "$type": "color",
-        "$value": "rgba(0,0,0,0.7)"
+        "$value": "rgba(0,0,0,0.7)",
+        "$description": "Cortina escura com 70% de opacidade para foco absoluto em modais e diálogos críticos (Focus Trap / Inert background)."
       },
       "Measurement": {
         "$type": "color",
-        "$value": "{Pink.200}"
+        "$value": "{Pink.200}",
+        "$description": "Fundo rosa utilitário para anotações de design, medidas e marcações em documentação de handoff."
       },
       "Overlay": {
         "$type": "color",
-        "$value": "rgba(0,0,0,0.5)"
+        "$value": "rgba(0,0,0,0.5)",
+        "$description": "Sobreposição escura com 50% de opacidade para gavetas laterais (Drawers) e menus dropdown densos."
       },
       "Scrim": {
         "$type": "color",
-        "$value": "rgba(255,255,255,0.8)"
+        "$value": "rgba(255,255,255,0.8)",
+        "$description": "Camada branca semitransparente (80% alpha) para rebaixamento de contraste de fundo e transições de tela."
       }
     },
     "Warning": {
       "Default": {
         "$type": "color",
-        "$value": "{Yellow.400}"
+        "$value": "{Yellow.400}",
+        "$description": "Fundo sólido de alerta e pendência financeira (Yellow 400). Usado em Badges de atenção e botões de aviso. Parear com Text/Warning/On Warning (Yellow 1000) para contraste de 8.30:1 (WCAG 2.2 AAA)."
       },
       "Hover": {
         "$type": "color",
-        "$value": "{Yellow.500}"
+        "$value": "{Yellow.500}",
+        "$description": "Hover para elementos sólidos de alerta (Yellow 500). Parear com Text/Warning/On Warning (contraste 6.81:1 AA)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Yellow.200}"
+        "$value": "{Yellow.200}",
+        "$description": "Fundo de média ênfase para chips de pendência e filtros de investigação (Yellow 200). Parear com Text/Warning/Default (11.45:1 AAA)."
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Yellow.300}"
+        "$value": "{Yellow.300}",
+        "$description": "Hover sobre fundos de alerta secundários (Yellow 300)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Yellow.100}"
+        "$value": "{Yellow.100}",
+        "$description": "Fundo sutil/suave para Badges e Pills de \"Divergência / Tolerância\" em tabelas de conciliação (Yellow 100). REGRA DE PAREAMENTO: Parear com Text/Warning/Default (12.46:1 AAA) ou Text/Warning/On Warning (14.73:1 AAA). Passa em todos os testes WCAG."
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{Yellow.200}"
+        "$value": "{Yellow.200}",
+        "$description": "Hover para Badges e linhas de conciliação com pendência (Yellow 200)."
       }
     }
   },
@@ -185,101 +226,122 @@
     "Brand": {
       "Default": {
         "$type": "color",
-        "$value": "{Brand.800}"
+        "$value": "{Brand.800}",
+        "$description": "Borda de destaque de marca para anéis de foco visual (:focus-visible) e cartões ativos. Mandatório WCAG 2.2 (3.0:1)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Brand.600}"
+        "$value": "{Brand.600}",
+        "$description": "Borda intermediária de marca para botões secundários com contorno (outline buttons)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Brand.500}"
+        "$value": "{Brand.500}",
+        "$description": "Borda sutil de marca para Badges e tags de produtos ativos."
       }
     },
     "Danger": {
       "Default": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Borda firme de erro para inputs inválidos (aria-invalid=\"true\") e modais de estorno crítico (Red 700). Contraste >= 3.0:1."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Red.600}"
+        "$value": "{Red.600}",
+        "$description": "Borda intermediária de erro para contorno de botões destrutivos secundários (Red 600)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Red.500}"
+        "$value": "{Red.500}",
+        "$description": "Borda sutil para contorno perimétrico de Badges e Pills de divergência financeira (Red 500)."
       }
     },
     "Default": {
       "Default": {
         "$type": "color",
-        "$value": "{Gray.300}"
+        "$value": "{Gray.300}",
+        "$description": "Borda estrutural neutra primária para inputs ativos e contornos de cartões padrão. Garante contraste >= 3.0:1 (WCAG 2.2 Critério 1.4.11)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Gray.500}"
+        "$value": "{Gray.500}",
+        "$description": "Borda neutra secundária para divisórias de layout, cabeçalhos de tabela e separadores discretos."
       },
       "tertiary": {
         "$type": "color",
-        "$value": "{Gray.700}"
+        "$value": "{Gray.700}",
+        "$description": "Borda neutra sutil de baixa ênfase para delimitação de áreas secundárias."
       }
     },
     "Disabled": {
       "default": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Borda inerte de campos e botões desativados (Gray 400)."
       }
     },
     "Neutral": {
       "Default": {
         "$type": "color",
-        "$value": "{Slate.900}"
+        "$value": "{Slate.900}",
+        "$description": "Borda neutra firme (Slate 900) para linhas ativas, foco e seleção em tabelas financeiras densas."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Slate.600}"
+        "$value": "{Slate.600}",
+        "$description": "Borda de separação vertical entre colunas e divisória da gaveta de investigação (Slate 600)."
       },
       "tertiary": {
         "$type": "color",
-        "$value": "{Slate.400}"
+        "$value": "{Slate.400}",
+        "$description": "Borda neutra suave (Slate 400) para grade de linhas em tabelas de auditoria."
       }
     },
     "Positive": {
       "Default": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Borda firme de sucesso para campos de formulário validados e cards de conciliação confirmada (Green 800)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Green.600}"
+        "$value": "{Green.600}",
+        "$description": "Borda intermediária de sucesso para contorno de botões positivos secundários (Green 600)."
       },
       "tertiary": {
         "$type": "color",
-        "$value": "{Green.500}"
+        "$value": "{Green.500}",
+        "$description": "Borda sutil e elegante para delimitação de Badges e Pills Conciliado (Green 500)."
       }
     },
     "Utilities": {
       "Measurement": {
         "$type": "color",
-        "$value": "{Pink.400}"
+        "$value": "{Pink.400}",
+        "$description": "Borda magenta para cotas e caixas delimitadoras de medidas de design tokens."
       },
       "Swatch": {
         "$type": "color",
-        "$value": "rgba(0,0,0,0.24)"
+        "$value": "rgba(0,0,0,0.24)",
+        "$description": "Borda translúcida utilitária para amostras de cor sobre fundo variável."
       }
     },
     "Warning": {
       "Default": {
         "$type": "color",
-        "$value": "{Yellow.900}"
+        "$value": "{Yellow.900}",
+        "$description": "Borda firme de alerta para inputs com aviso de divergência e seletores de tolerância (Yellow 900)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Yellow.700}"
+        "$value": "{Yellow.700}",
+        "$description": "Borda intermediária de alerta para contorno de filtros e cards de aviso (Yellow 700)."
       },
       "tertiary": {
         "$type": "color",
-        "$value": "{Yellow.600}"
+        "$value": "{Yellow.600}",
+        "$description": "Borda sutil para acabamento perimetral de Badges e Pills Divergência (Yellow 600)."
       }
     }
   },
@@ -287,165 +349,202 @@
     "Brand": {
       "Default": {
         "$type": "color",
-        "$value": "{Brand.800}"
+        "$value": "{Brand.800}",
+        "$description": "Ícone de marca primário para itens ativos e links em destaque."
       },
       "On Brand": {
         "$type": "color",
-        "$value": "{Brand.100}"
+        "$value": "{Brand.100}",
+        "$description": "Ícone de alto contraste exclusivo para botões preenchidos com Bg/Brand/Default."
       },
       "On Brand Secondary": {
         "$type": "color",
-        "$value": "{Brand.900}"
+        "$value": "{Brand.900}",
+        "$description": "Ícone escuro de marca para superfícies claras."
       },
       "On Brand Tertiary": {
         "$type": "color",
-        "$value": "{Brand.800}"
+        "$value": "{Brand.800}",
+        "$description": "Ícone escuro alternativo de marca."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Brand.600}"
+        "$value": "{Brand.600}",
+        "$description": "Ícone de marca secundário."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Brand.500}"
+        "$value": "{Brand.500}",
+        "$description": "Ícone de marca terciário."
       }
     },
     "Danger": {
       "Default": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Ícone primário de erro (Red 700) para símbolos de divergência em Badges sutis e mensagens de erro (8.05:1 AAA)."
       },
       "On Danger": {
         "$type": "color",
-        "$value": "{White.1000}"
+        "$value": "{White.1000}",
+        "$description": "Ícone de alto contraste (White) EXCLUSIVO para botões preenchidos com Bg/Danger/Default. ⚠️ NÃO usar em Badges sutis."
       },
       "On Danger Secondary": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Ícone escuro de perigo (Red 700) para superfícies claras."
       },
       "On Danger Tertiary": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Ícone escuro alternativo de perigo."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Red.600}"
+        "$value": "{Red.600}",
+        "$description": "Ícone secundário de erro (Red 600) para validações inline."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Red.500}"
+        "$value": "{Red.500}",
+        "$description": "Ícone terciário de erro (Red 500)."
       }
     },
     "Default": {
       "Default": {
         "$type": "color",
-        "$value": "{Gray.900}"
+        "$value": "{Gray.900}",
+        "$description": "Ícone primário de alta ênfase (Gray 900) para navegação principal e ações de topo."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Gray.500}"
+        "$value": "{Gray.500}",
+        "$description": "Ícone secundário (Gray 500) para ações de apoio e indicadores auxiliares."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Ícone terciário (Gray 400) para elementos decorativos de baixa prioridade."
       }
     },
     "Disabled": {
       "Default": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Ícone desativado (Gray 400) para ações bloqueadas."
       },
       "On Disabled": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Ícone desativado sobre superfícies desativadas preenchidas."
       }
     },
     "Neutral": {
       "Default": {
         "$type": "color",
-        "$value": "{Slate.900}"
+        "$value": "{Slate.900}",
+        "$description": "Ícone neutro primário (Slate 900) para cabeçalhos de tabela e ações de linha em dashboards."
       },
       "On Neutral": {
         "$type": "color",
-        "$value": "{Slate.100}"
+        "$value": "{Slate.100}",
+        "$description": "Ícone de alto contraste (Slate 100) para renderização sobre botões escuros Bg/Neutral/Default."
       },
       "On Neutral Secondary": {
         "$type": "color",
-        "$value": "{Slate.900}"
+        "$value": "{Slate.900}",
+        "$description": "Ícone escuro (Slate 900) para uso sobre fundos claros."
       },
       "On Neutral Tertiary": {
         "$type": "color",
-        "$value": "{Slate.800}"
+        "$value": "{Slate.800}",
+        "$description": "Ícone escuro de apoio (Slate 800)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Slate.700}"
+        "$value": "{Slate.700}",
+        "$description": "Ícone neutro secundário (Slate 700) para ordenação de colunas e setas de paginação."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Slate.600}"
+        "$value": "{Slate.600}",
+        "$description": "Ícone neutro terciário (Slate 600) para ícones de status passivo."
       }
     },
     "Positive": {
       "Default": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Ícone primário de sucesso (Green 800) para checagens (checkmarks) em Badges sutis e tabelas."
       },
       "On Positive": {
         "$type": "color",
-        "$value": "{White.1000}"
+        "$value": "{White.1000}",
+        "$description": "Ícone de alto contraste (White) EXCLUSIVO para botões preenchidos com Bg/Positive/Default."
       },
       "On Positive Secondary": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Ícone escuro de sucesso para superfícies claras."
       },
       "On Positive Tertiary": {
         "$type": "color",
-        "$value": "{Green.900}"
+        "$value": "{Green.900}",
+        "$description": "Ícone escuro alternativo de sucesso."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Green.600}"
+        "$value": "{Green.600}",
+        "$description": "Ícone secundário de sucesso (Green 600) para feedbacks positivos inline."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Green.500}"
+        "$value": "{Green.500}",
+        "$description": "Ícone terciário de sucesso (Green 500)."
       }
     },
     "Utilities": {
       "Icon": {
         "$type": "color",
-        "$value": "{Pink.600}"
+        "$value": "{Pink.600}",
+        "$description": "Ícone magenta utilitário para anotações técnicas e specs visuais."
       },
       "Icon On Measurement": {
         "$type": "color",
-        "$value": "{Pink.800}"
+        "$value": "{Pink.800}",
+        "$description": "Ícone magenta escuro para réguas de medida."
       }
     },
     "Warning": {
       "Default": {
         "$type": "color",
-        "$value": "{Yellow.900}"
+        "$value": "{Yellow.900}",
+        "$description": "Ícone primário de alerta (Yellow 900) para triângulos de aviso em Badges sutis e tabelas. Contraste 12.46:1 AAA."
       },
       "On Warning": {
         "$type": "color",
-        "$value": "{Yellow.1000}"
+        "$value": "{Yellow.1000}",
+        "$description": "Ícone de alto contraste (Yellow 1000) para uso em botões de aviso sólidos preenchidos."
       },
       "On Warning Secondary": {
         "$type": "color",
-        "$value": "{Yellow.800}"
+        "$value": "{Yellow.800}",
+        "$description": "Ícone escuro de alerta para componentes secundários."
       },
       "On Warning Tertiary": {
         "$type": "color",
-        "$value": "{Yellow.900}"
+        "$value": "{Yellow.900}",
+        "$description": "Ícone escuro alternativo de alerta."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Yellow.700}"
+        "$value": "{Yellow.700}",
+        "$description": "Ícone secundário de alerta (Yellow 700)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Yellow.600}"
+        "$value": "{Yellow.600}",
+        "$description": "Ícone terciário de alerta (Yellow 600)."
       }
     }
   },
@@ -453,165 +552,202 @@
     "Brand": {
       "Default": {
         "$type": "color",
-        "$value": "{Brand.800}"
+        "$value": "{Brand.800}",
+        "$description": "Texto institucional primário de marca (Brand 800) para links ativos, itens de navegação selecionados e títulos institucionais."
       },
       "On Brand": {
         "$type": "color",
-        "$value": "{Brand.100}"
+        "$value": "{Brand.100}",
+        "$description": "Texto de alto contraste (Brand 100 / White) exclusivo para botões e superfícies preenchidas com Bg/Brand/Default. Contraste 11.5:1 (AAA)."
       },
       "On Brand Secondary": {
         "$type": "color",
-        "$value": "{Brand.900}"
+        "$value": "{Brand.900}",
+        "$description": "Texto escuro de marca para elementos de apoio sobre superfícies claras."
       },
       "On Brand Tertiary": {
         "$type": "color",
-        "$value": "{Brand.800}"
+        "$value": "{Brand.800}",
+        "$description": "Texto escuro alternativo de marca."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Brand.600}"
+        "$value": "{Brand.600}",
+        "$description": "Texto secundário de marca (Brand 600) para elementos interativos secundários."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Brand.500}"
+        "$value": "{Brand.500}",
+        "$description": "Texto terciário de marca (Brand 500) para tags passivas."
       }
     },
     "Danger": {
       "Default": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Texto primário de perigo, erro e divergência contábil (Red 700). REGRA DE OURO PARA BADGES SUTIS: Aplicar sobre Bg/Danger/Tertiary (Red 100) para compor Badges e Pills de divergência financeira. Garante 8.05:1 (WCAG AAA). Evita o erro comum de contraste insuficiente."
       },
       "On Danger": {
         "$type": "color",
-        "$value": "{White.1000}"
+        "$value": "{White.1000}",
+        "$description": "Texto de alto contraste (White/1000) EXCLUSIVO para botões de estorno/cancelamento e Badges sólidos preenchidos com Bg/Danger/Default (Red 600). Garante 6.33:1 (WCAG 2.2 AA). ⚠️ ATENÇÃO: NUNCA aplicar este token sobre Bg/Danger/Tertiary, pois causará invisibilidade (1.0:1)."
       },
       "On Danger Secondary": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Texto escuro de perigo (Red 700) para elementos de erro secundários sobre fundos claros. Contraste 8.05:1 (AAA)."
       },
       "On Danger Tertiary": {
         "$type": "color",
-        "$value": "{Red.700}"
+        "$value": "{Red.700}",
+        "$description": "Texto escuro de perigo alternativo (Red 700)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Red.600}"
+        "$value": "{Red.600}",
+        "$description": "Texto secundário de erro (Red 600) para mensagens de validação e alertas de campo em formulários. Contraste 5.44:1 (AA) sobre fundos claros."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Red.500}"
+        "$value": "{Red.500}",
+        "$description": "Texto terciário de perigo (Red 500) restrito a gráficos de status ou elementos gráficos de grande porte (>18pt)."
       }
     },
     "Default": {
       "Default": {
         "$type": "color",
-        "$value": "{Gray.900}"
+        "$value": "{Gray.900}",
+        "$description": "Texto primário de máxima ênfase (Gray 900) para títulos, dados tabulares e corpo de texto principal sobre fundos claros (Bg/Default/Default). Contraste 12.6:1 (AAA)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Gray.500}"
+        "$value": "{Gray.500}",
+        "$description": "Texto secundário (Gray 500) para rótulos (labels), cabeçalhos de tabela, datas e metadados. Contraste 4.6:1 (AA)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Texto terciário (Gray 400) para placeholders de formulário e textos de apoio de baixa prioridade."
       }
     },
     "Disabled": {
       "Default": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Texto desativado e inerte (Gray 400). Aplicado em campos travados e botões bloqueados sem interação ativa."
       },
       "On Disabled": {
         "$type": "color",
-        "$value": "{Gray.400}"
+        "$value": "{Gray.400}",
+        "$description": "Texto sobre elementos desativados preenchidos."
       }
     },
     "Neutral": {
       "Default": {
         "$type": "color",
-        "$value": "{Slate.900}"
+        "$value": "{Slate.900}",
+        "$description": "Texto neutro primário (Slate 900) para dashboards corporativos e valores financeiros em tabelas sobre fundos neutros claros. Contraste 15.5:1 (AAA)."
       },
       "On Neutral": {
         "$type": "color",
-        "$value": "{Slate.100}"
+        "$value": "{Slate.100}",
+        "$description": "Texto de alto contraste (Slate 100) para leitura exclusiva sobre fundos escuros Bg/Neutral/Default (Slate 700) ou Bg/Neutral/Hover (Slate 800). Contraste 9.4:1 (AAA)."
       },
       "On Neutral Secondary": {
         "$type": "color",
-        "$value": "{Slate.900}"
+        "$value": "{Slate.900}",
+        "$description": "Texto escuro (Slate 900) para leitura sobre fundos neutros claros (Bg/Neutral/Tertiary)."
       },
       "On Neutral Tertiary": {
         "$type": "color",
-        "$value": "{Slate.800}"
+        "$value": "{Slate.800}",
+        "$description": "Texto escuro alternativo (Slate 800) para leitura sobre fundos neutros intermediários."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Slate.700}"
+        "$value": "{Slate.700}",
+        "$description": "Texto neutro secundário (Slate 700) para descrições de lançamento e subtítulos. Contraste 9.4:1 (AAA)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Slate.600}"
+        "$value": "{Slate.600}",
+        "$description": "Texto neutro terciário (Slate 600) para timestamps de auditoria e código hash truncado. Contraste 6.4:1 (AA)."
       }
     },
     "Positive": {
       "Default": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Texto primário de sucesso e conciliação (Green 800). REGRA DE OURO PARA BADGES: Usar como texto de Badges sutis sobre Bg/Positive/Tertiary. Garante contraste de 8.69:1 (WCAG AAA)."
       },
       "On Positive": {
         "$type": "color",
-        "$value": "{White.1000}"
+        "$value": "{White.1000}",
+        "$description": "Texto de alto contraste (White) EXCLUSIVO para botões de ação e Badges sólidos com Bg/Positive/Default (Green 700). Contraste 5.04:1 (AA). ⚠️ PROIBIDO usar em Badges sutis (Bg/Positive/Tertiary)."
       },
       "On Positive Secondary": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Texto escuro de sucesso (Green 800) para leitura sobre fundos claros de conciliação."
       },
       "On Positive Tertiary": {
         "$type": "color",
-        "$value": "{Green.800}"
+        "$value": "{Green.800}",
+        "$description": "Texto escuro de sucesso (Green 800) para componentes informativos de aprovação."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Green.600}"
+        "$value": "{Green.600}",
+        "$description": "Texto secundário de sucesso (Green 600) para mensagens inline de validação positiva."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Green.500}"
+        "$value": "{Green.500}",
+        "$description": "Texto terciário de sucesso (Green 500) para ícones decorativos ou gráficos de progresso."
       }
     },
     "Utilities": {
       "Text On Measurement": {
         "$type": "color",
-        "$value": "{Pink.800}"
+        "$value": "{Pink.800}",
+        "$description": "Texto magenta escuro (Pink 800) para cotas numéricas de espaçamento e documentação de engenharia."
       },
       "Text On Overlay": {
         "$type": "color",
-        "$value": "{Black.1000}"
+        "$value": "{Black.1000}",
+        "$description": "Texto escuro de alto contraste (Black 1000) para renderização sobre overlays translúcidos claros."
       }
     },
     "Warning": {
       "Default": {
         "$type": "color",
-        "$value": "{Yellow.900}"
+        "$value": "{Yellow.900}",
+        "$description": "Texto primário de alerta e pendência (Yellow 900). REGRA PARA BADGES SUTIS: Parear com Bg/Warning/Tertiary (amarelo claro). Garante contraste de 12.46:1 (WCAG AAA)."
       },
       "On Warning": {
         "$type": "color",
-        "$value": "{Yellow.1000}"
+        "$value": "{Yellow.1000}",
+        "$description": "Texto de alto contraste (Yellow 1000 marrom profundo) para uso sobre Bg/Warning/Default (amarelo sólido) atingindo 8.30:1 (AAA), ou sobre Bg/Warning/Tertiary atingindo 14.73:1 (AAA)."
       },
       "On Warning Secondary": {
         "$type": "color",
-        "$value": "{Yellow.800}"
+        "$value": "{Yellow.800}",
+        "$description": "Texto secundário de alto contraste (Yellow 800) para componentes de alerta. Contraste 5.81:1 em sólidos e 10.30:1 em sutis."
       },
       "On Warning Tertiary": {
         "$type": "color",
-        "$value": "{Yellow.900}"
+        "$value": "{Yellow.900}",
+        "$description": "Texto de apoio de alerta (Yellow 900)."
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Yellow.700}"
+        "$value": "{Yellow.700}",
+        "$description": "Texto secundário de alerta (Yellow 700) para descrições de tolerância e notas de divergência. Contraste 5.80:1 (AA)."
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Yellow.600}"
+        "$value": "{Yellow.600}",
+        "$description": "Texto terciário de alerta (Yellow 600)."
       }
     }
   }
