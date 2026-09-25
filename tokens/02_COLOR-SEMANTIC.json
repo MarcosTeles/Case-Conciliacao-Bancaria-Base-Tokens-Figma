@@ -376,14 +376,14 @@
         "$value": {
           "colorSpace": "srgb",
           "components": [
-            0.1725490242242813,
-            0.1725490242242813,
-            0.1725490242242813
+            0.0,
+            0.8980392,
+            1.0
           ],
           "alpha": 1,
-          "hex": "#2C2C2C"
+          "hex": "#00E5FF"
         },
-        "$description": "Superfície sólida de ação primária institucional (Brand 800). Parear com Text/Brand/On Brand (White/Brand 100) para conformidade WCAG 2.2 AA (11.5:1 AAA).",
+        "$description": "TESTE DE SINCRONIA: Azul piscina vibrante para teste de sincronização do plugin SXL Studio.",
         "$extensions": {
           "com.figma.scopes": [
             "FRAME_FILL",
@@ -406,14 +406,14 @@
         "$value": {
           "colorSpace": "srgb",
           "components": [
-            0.11764705926179886,
-            0.11764705926179886,
-            0.11764705926179886
+            0.0,
+            0.70588235,
+            0.8470588
           ],
           "alpha": 1,
-          "hex": "#1E1E1E"
+          "hex": "#00B4D8"
         },
-        "$description": "Estado de interação hover para botões e controles de ação primária de marca (Brand 900).",
+        "$description": "TESTE DE SINCRONIA: Azul piscina mais intenso para estado hover.",
         "$extensions": {
           "com.figma.scopes": [
             "FRAME_FILL",
@@ -436,14 +436,14 @@
         "$value": {
           "colorSpace": "srgb",
           "components": [
-            0.9019607901573181,
-            0.9019607901573181,
-            0.9019607901573181
+            0.40392157,
+            0.9098039,
+            0.9764706
           ],
           "alpha": 1,
-          "hex": "#E6E6E6"
+          "hex": "#67E8F9"
         },
-        "$description": "Fundo secundário de marca para áreas de destaque suave e tags ativas (Brand 200). Parear com Text/Brand/Default.",
+        "$description": "TESTE DE SINCRONIA: Azul piscina claro para destaque secundário.",
         "$extensions": {
           "com.figma.scopes": [
             "FRAME_FILL",
@@ -466,14 +466,14 @@
         "$value": {
           "colorSpace": "srgb",
           "components": [
-            0.8509804010391235,
-            0.8509804010391235,
-            0.8509804010391235
+            0.13333333,
+            0.827451,
+            0.9333333
           ],
           "alpha": 1,
-          "hex": "#D9D9D9"
+          "hex": "#22D3EE"
         },
-        "$description": "Hover sobre fundos secundários de marca (Brand 300).",
+        "$description": "TESTE DE SINCRONIA: Azul piscina intermediário para hover secundário.",
         "$extensions": {
           "com.figma.scopes": [
             "FRAME_FILL",
@@ -496,14 +496,14 @@
         "$value": {
           "colorSpace": "srgb",
           "components": [
-            0.9607843160629272,
-            0.9607843160629272,
-            0.9607843160629272
+            0.8117647,
+            0.98039216,
+            0.99607843
           ],
           "alpha": 1,
-          "hex": "#F5F5F5"
+          "hex": "#CFFAFE"
         },
-        "$description": "Fundo sutil de marca para Badges de produtos ativos e linhas selecionadas (Brand 100). Parear com Text/Brand/Default (contraste 11.5:1 AAA).",
+        "$description": "TESTE DE SINCRONIA: Azul piscina suave para fundo terciário.",
         "$extensions": {
           "com.figma.scopes": [
             "FRAME_FILL",
@@ -526,14 +526,14 @@
         "$value": {
           "colorSpace": "srgb",
           "components": [
-            0.9019607901573181,
-            0.9019607901573181,
-            0.9019607901573181
+            0.6470588,
+            0.9529412,
+            0.9882353
           ],
           "alpha": 1,
-          "hex": "#E6E6E6"
+          "hex": "#A5F3FC"
         },
-        "$description": "Hover para badges e containers sutis de marca (Brand 200).",
+        "$description": "TESTE DE SINCRONIA: Azul piscina pastel para hover terciário.",
         "$extensions": {
           "com.figma.scopes": [
             "FRAME_FILL",
