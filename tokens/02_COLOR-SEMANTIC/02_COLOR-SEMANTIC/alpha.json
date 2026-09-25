@@ -3,27 +3,27 @@
     "Brand": {
       "Default": {
         "$type": "color",
-        "$value": "{Blue.600}"
+        "$value": "{Brand.800}"
       },
       "Hover": {
         "$type": "color",
-        "$value": "{Pink.600}"
+        "$value": "{Brand.900}"
       },
       "Secondary": {
         "$type": "color",
-        "$value": "{Amber.400}"
+        "$value": "{Brand.200}"
       },
       "Secondary Hover": {
         "$type": "color",
-        "$value": "{Emerald.500}"
+        "$value": "{Brand.300}"
       },
       "Tertiary": {
         "$type": "color",
-        "$value": "{Rose.100}"
+        "$value": "{Brand.100}"
       },
       "Tertiary Hover": {
         "$type": "color",
-        "$value": "{AI.100}"
+        "$value": "{Brand.200}"
       }
     },
     "Danger": {
