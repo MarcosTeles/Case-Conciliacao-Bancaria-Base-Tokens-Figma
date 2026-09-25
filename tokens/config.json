@@ -1,0 +1,120 @@
+{
+  "$schema": "sxl-studio/config",
+  "$version": "1.0",
+  "settings": {
+    "remBase": 16
+  },
+  "collections": [
+    {
+      "name": "01_COLOR-PRIMITIVES",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "01_COLOR-PRIMITIVES",
+          "enabled": true,
+          "files": {
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/colors.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/typography.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/spacing.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/sizing.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/string.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/borders.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/numbers.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/alpha.json": "enabled",
+            "01_COLOR-PRIMITIVES/01_COLOR-PRIMITIVES/effects.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "02_COLOR-SEMANTIC",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "02_COLOR-SEMANTIC",
+          "enabled": true,
+          "files": {
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/colors.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/typography.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/spacing.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/sizing.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/string.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/borders.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/numbers.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/alpha.json": "enabled",
+            "02_COLOR-SEMANTIC/02_COLOR-SEMANTIC/effects.json": "enabled"
+          }
+        }
+      ],
+      "ref": [
+        {
+          "type": "local",
+          "collection": "01_COLOR-PRIMITIVES"
+        }
+      ]
+    },
+    {
+      "name": "03_SIZES",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "03_SIZES",
+          "enabled": true,
+          "files": {
+            "03_SIZES/03_SIZES/colors.json": "enabled",
+            "03_SIZES/03_SIZES/typography.json": "enabled",
+            "03_SIZES/03_SIZES/spacing.json": "enabled",
+            "03_SIZES/03_SIZES/sizing.json": "enabled",
+            "03_SIZES/03_SIZES/string.json": "enabled",
+            "03_SIZES/03_SIZES/borders.json": "enabled",
+            "03_SIZES/03_SIZES/numbers.json": "enabled",
+            "03_SIZES/03_SIZES/alpha.json": "enabled",
+            "03_SIZES/03_SIZES/effects.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "04_TYPOGRAPHY-PRIMITIVES",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "04_TYPOGRAPHY-PRIMITIVES",
+          "enabled": true,
+          "files": {
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/colors.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/typography.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/spacing.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/sizing.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/string.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/borders.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/numbers.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/alpha.json": "enabled",
+            "04_TYPOGRAPHY-PRIMITIVES/04_TYPOGRAPHY-PRIMITIVES/effects.json": "enabled"
+          }
+        }
+      ]
+    },
+    {
+      "name": "05_TYPOGRAPHY-SEMANTIC",
+      "enabled": true,
+      "modes": [
+        {
+          "name": "05_TYPOGRAPHY-SEMANTIC",
+          "enabled": true,
+          "files": {
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/colors.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/typography.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/spacing.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/sizing.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/string.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/borders.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/numbers.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/alpha.json": "enabled",
+            "05_TYPOGRAPHY-SEMANTIC/05_TYPOGRAPHY-SEMANTIC/effects.json": "enabled"
+          }
+        }
+      ]
+    }
+  ]
+}

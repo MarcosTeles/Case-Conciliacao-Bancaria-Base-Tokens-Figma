@@ -1,0 +1,124 @@
+{
+  "Body": {
+    "Font Weight Regular": {
+      "$type": "dimension",
+      "$value": 400
+    },
+    "Font Weight Strong": {
+      "$type": "dimension",
+      "$value": 600
+    },
+    "Size Large": {
+      "$type": "dimension",
+      "$value": 20
+    },
+    "Size Medium": {
+      "$type": "dimension",
+      "$value": 16
+    },
+    "Size Small": {
+      "$type": "dimension",
+      "$value": 14
+    }
+  },
+  "Code": {
+    "Font Weight": {
+      "$type": "dimension",
+      "$value": "{Body/Font Weight Regular}"
+    },
+    "Size Base": {
+      "$type": "dimension",
+      "$value": "{Body/Size Medium}"
+    },
+    "Size Large": {
+      "$type": "dimension",
+      "$value": "{Body/Size Large}"
+    },
+    "Size Small": {
+      "$type": "dimension",
+      "$value": "{Body/Size Small}"
+    }
+  },
+  "Heading": {
+    "Font Weight": {
+      "$type": "dimension",
+      "$value": 600
+    },
+    "Size Base": {
+      "$type": "dimension",
+      "$value": 24
+    },
+    "Size Large": {
+      "$type": "dimension",
+      "$value": 32
+    },
+    "Size Small": {
+      "$type": "dimension",
+      "$value": 20
+    }
+  },
+  "Subheading": {
+    "Font Weight": {
+      "$type": "dimension",
+      "$value": 400
+    },
+    "Size Large": {
+      "$type": "dimension",
+      "$value": 24
+    },
+    "Size Medium": {
+      "$type": "dimension",
+      "$value": 20
+    },
+    "Size Small": {
+      "$type": "dimension",
+      "$value": 16
+    }
+  },
+  "Subtitle": {
+    "Font Weight": {
+      "$type": "dimension",
+      "$value": 400
+    },
+    "Size Base": {
+      "$type": "dimension",
+      "$value": 32
+    },
+    "Size Large": {
+      "$type": "dimension",
+      "$value": 40
+    },
+    "Size Small": {
+      "$type": "dimension",
+      "$value": 24
+    }
+  },
+  "Title Hero": {
+    "Font Weight": {
+      "$type": "dimension",
+      "$value": 700
+    },
+    "Size": {
+      "$type": "dimension",
+      "$value": 72
+    }
+  },
+  "Title Page": {
+    "Font Weight": {
+      "$type": "dimension",
+      "$value": 700
+    },
+    "Size Base": {
+      "$type": "dimension",
+      "$value": 48
+    },
+    "Size Large": {
+      "$type": "dimension",
+      "$value": 64
+    },
+    "Size Small": {
+      "$type": "dimension",
+      "$value": 40
+    }
+  }
+}

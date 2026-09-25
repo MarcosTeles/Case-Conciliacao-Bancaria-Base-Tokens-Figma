@@ -1,0 +1,78 @@
+{
+  "Scale 01": {
+    "$type": "dimension",
+    "$value": 12
+  },
+  "Scale 02": {
+    "$type": "dimension",
+    "$value": 14
+  },
+  "Scale 03": {
+    "$type": "dimension",
+    "$value": 16
+  },
+  "Scale 04": {
+    "$type": "dimension",
+    "$value": 20
+  },
+  "Scale 05": {
+    "$type": "dimension",
+    "$value": 24
+  },
+  "Scale 06": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "Scale 07": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "Scale 08": {
+    "$type": "dimension",
+    "$value": 48
+  },
+  "Scale 09": {
+    "$type": "dimension",
+    "$value": 64
+  },
+  "Scale 10": {
+    "$type": "dimension",
+    "$value": 72
+  },
+  "Weight Black": {
+    "$type": "dimension",
+    "$value": 900
+  },
+  "Weight Bold": {
+    "$type": "dimension",
+    "$value": 700
+  },
+  "Weight Extra Bold": {
+    "$type": "dimension",
+    "$value": 800
+  },
+  "Weight Extra Light": {
+    "$type": "dimension",
+    "$value": 200
+  },
+  "Weight Light": {
+    "$type": "dimension",
+    "$value": 300
+  },
+  "Weight Medium": {
+    "$type": "dimension",
+    "$value": 500
+  },
+  "Weight Regular": {
+    "$type": "dimension",
+    "$value": 400
+  },
+  "Weight Semibold": {
+    "$type": "dimension",
+    "$value": 600
+  },
+  "Weight Thin": {
+    "$type": "dimension",
+    "$value": 100
+  }
+}

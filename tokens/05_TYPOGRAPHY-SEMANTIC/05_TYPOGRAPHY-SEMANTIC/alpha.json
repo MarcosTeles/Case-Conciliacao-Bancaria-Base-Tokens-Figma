@@ -1,0 +1,48 @@
+{
+  "Body": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Inter"
+    },
+    "Font Style Italic": {
+      "$type": "text",
+      "$value": "Italic"
+    }
+  },
+  "Code": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Roboto Mono"
+    }
+  },
+  "Heading": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Inter"
+    }
+  },
+  "Subheading": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Inter"
+    }
+  },
+  "Subtitle": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Inter"
+    }
+  },
+  "Title Hero": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Inter"
+    }
+  },
+  "Title Page": {
+    "Font Family": {
+      "$type": "text",
+      "$value": "Inter"
+    }
+  }
+}

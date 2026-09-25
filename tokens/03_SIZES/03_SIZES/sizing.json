@@ -1,0 +1,178 @@
+{
+  "Blur": {
+    "100": {
+      "$type": "dimension",
+      "$value": 4
+    }
+  },
+  "Depth": {
+    "0": {
+      "$type": "dimension",
+      "$value": 0
+    },
+    "100": {
+      "$type": "dimension",
+      "$value": 4
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": 8
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": 16
+    },
+    "800": {
+      "$type": "dimension",
+      "$value": 32
+    },
+    "1200": {
+      "$type": "dimension",
+      "$value": 48
+    },
+    "025": {
+      "$type": "dimension",
+      "$value": 1
+    },
+    "Negative 025": {
+      "$type": "dimension",
+      "$value": -1
+    },
+    "Negative 100": {
+      "$type": "dimension",
+      "$value": -4
+    },
+    "Negative 1200": {
+      "$type": "dimension",
+      "$value": -48
+    },
+    "Negative 200": {
+      "$type": "dimension",
+      "$value": -8
+    },
+    "Negative 400": {
+      "$type": "dimension",
+      "$value": -16
+    },
+    "Negative 800": {
+      "$type": "dimension",
+      "$value": -32
+    }
+  },
+  "Icon": {
+    "Large": {
+      "$type": "dimension",
+      "$value": 40
+    },
+    "Medium": {
+      "$type": "dimension",
+      "$value": 32
+    },
+    "Small": {
+      "$type": "dimension",
+      "$value": 24
+    }
+  },
+  "Radius": {
+    "100": {
+      "$type": "dimension",
+      "$value": 4
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": 8
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": 16
+    },
+    "Full": {
+      "$type": "dimension",
+      "$value": 9999
+    }
+  },
+  "Space": {
+    "0": {
+      "$type": "dimension",
+      "$value": 0
+    },
+    "100": {
+      "$type": "dimension",
+      "$value": 4
+    },
+    "150": {
+      "$type": "dimension",
+      "$value": 6
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": 8
+    },
+    "300": {
+      "$type": "dimension",
+      "$value": 12
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": 16
+    },
+    "600": {
+      "$type": "dimension",
+      "$value": 24
+    },
+    "800": {
+      "$type": "dimension",
+      "$value": 32
+    },
+    "1200": {
+      "$type": "dimension",
+      "$value": 48
+    },
+    "1600": {
+      "$type": "dimension",
+      "$value": 64
+    },
+    "2400": {
+      "$type": "dimension",
+      "$value": 96
+    },
+    "4000": {
+      "$type": "dimension",
+      "$value": 160
+    },
+    "050": {
+      "$type": "dimension",
+      "$value": 2
+    },
+    "Negative 100": {
+      "$type": "dimension",
+      "$value": -4
+    },
+    "Negative 200": {
+      "$type": "dimension",
+      "$value": -8
+    },
+    "Negative 300": {
+      "$type": "dimension",
+      "$value": -12
+    },
+    "Negative 400": {
+      "$type": "dimension",
+      "$value": -16
+    },
+    "Negative 600": {
+      "$type": "dimension",
+      "$value": -24
+    }
+  },
+  "Stroke": {
+    "Border": {
+      "$type": "dimension",
+      "$value": 1
+    },
+    "Focus Ring": {
+      "$type": "dimension",
+      "$value": 2
+    }
+  }
+}

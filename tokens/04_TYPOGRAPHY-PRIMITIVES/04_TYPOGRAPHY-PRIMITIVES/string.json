@@ -1,0 +1,50 @@
+{
+  "Family Mono": {
+    "$type": "text",
+    "$value": "Roboto Mono"
+  },
+  "Family Sans": {
+    "$type": "text",
+    "$value": "Inter"
+  },
+  "Family Serif": {
+    "$type": "text",
+    "$value": "Noto Serif"
+  },
+  "Weight Black Italic": {
+    "$type": "text",
+    "$value": "Black Italic"
+  },
+  "Weight Bold Italic": {
+    "$type": "text",
+    "$value": "Bold Italic"
+  },
+  "Weight Extra Bold Italic": {
+    "$type": "text",
+    "$value": "Extra Bold Italic"
+  },
+  "Weight Extralight Italic": {
+    "$type": "text",
+    "$value": "Extra Light Italic"
+  },
+  "Weight Light Italic": {
+    "$type": "text",
+    "$value": "Light Italic"
+  },
+  "Weight Medium Italic": {
+    "$type": "text",
+    "$value": "Medium Italic"
+  },
+  "Weight Regular Italic": {
+    "$type": "text",
+    "$value": "Italic"
+  },
+  "Weight Semibold Italic": {
+    "$type": "text",
+    "$value": "Semi Bold Italic"
+  },
+  "Weight Thin Italic": {
+    "$type": "text",
+    "$value": "Thin Italic"
+  }
+}
